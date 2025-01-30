@@ -44,6 +44,7 @@ header {
     .divButtons {
         display: flex;
         justify-content: end; /* Coloca a última div no FINAL dentro do seu espaço delimitado pelo 'flex: 1' */
+        gap: 30px;
 
         .primary {
             color: var(--black);
@@ -64,15 +65,19 @@ header {
 
     &.vermelho{
         background-color: #0E0000;
+        transition: all 1.3s cubic-bezier(1, -0.01, 0.18, 1);
     }
     &.cinza{
         background-color: #222121;/* #AFABA7 */
+        transition: all 1.3s cubic-bezier(1, -0.01, 0.18, 1);
     }
     &.verde{
         background-color: #0f160f;/* #324A32 */
+        transition: all 1.3s cubic-bezier(1, -0.01, 0.18, 1);
     }
     &.marrom{
         background-color: #1b1510;/* #785D49 */
+        transition: all 1.3s cubic-bezier(1, -0.01, 0.18, 1);
     }
     
     .slide {
